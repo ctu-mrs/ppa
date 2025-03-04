@@ -31,35 +31,35 @@ mrs_uav_path_loader:
 aloam_slam:
     ubuntu: [ros-noetic-aloam-slam]
   
-mrs_euler_counter_example:
-    ubuntu: [ros-noetic-mrs-euler-counter-example]
+mrs_sensor_info:
+    ubuntu: [ros-noetic-mrs-sensor-info]
   
-mrs_tf_reconfigure:
-    ubuntu: [ros-noetic-mrs-tf-reconfigure]
+mrs_tf_mirror:
+    ubuntu: [ros-noetic-mrs-tf-mirror]
   
 mrs_tf_connector:
     ubuntu: [ros-noetic-mrs-tf-connector]
   
-mrs_throw_activation:
-    ubuntu: [ros-noetic-mrs-throw-activation]
-  
-mrs_circle_flier:
-    ubuntu: [ros-noetic-mrs-circle-flier]
+mrs_tf_estimator:
+    ubuntu: [ros-noetic-mrs-tf-estimator]
   
 mrs_camera_republisher:
     ubuntu: [ros-noetic-mrs-camera-republisher]
   
-mrs_sensor_info:
-    ubuntu: [ros-noetic-mrs-sensor-info]
+mrs_circle_flier:
+    ubuntu: [ros-noetic-mrs-circle-flier]
   
-mrs_tf_estimator:
-    ubuntu: [ros-noetic-mrs-tf-estimator]
+mrs_euler_counter_example:
+    ubuntu: [ros-noetic-mrs-euler-counter-example]
   
 mrs_multireconfigure:
     ubuntu: [ros-noetic-mrs-multireconfigure]
   
-mrs_tf_mirror:
-    ubuntu: [ros-noetic-mrs-tf-mirror]
+mrs_tf_reconfigure:
+    ubuntu: [ros-noetic-mrs-tf-reconfigure]
+  
+mrs_throw_activation:
+    ubuntu: [ros-noetic-mrs-throw-activation]
   
 mrs_utils:
     ubuntu: [ros-noetic-mrs-utils]
@@ -106,11 +106,11 @@ mrs_precise_landing_gazebo:
 mrs_precise_landing:
     ubuntu: [ros-noetic-mrs-precise-landing]
   
-mrs_robofly_core:
-    ubuntu: [ros-noetic-mrs-robofly-core]
-  
 mrs_robofly_example:
     ubuntu: [ros-noetic-mrs-robofly-example]
+  
+mrs_robofly_core:
+    ubuntu: [ros-noetic-mrs-robofly-core]
   
 mrs_uav_px4_api:
     ubuntu: [ros-noetic-mrs-uav-px4-api]
@@ -202,11 +202,11 @@ mrs_open_vins_core:
 mrs_uav_core:
     ubuntu: [ros-noetic-mrs-uav-core]
   
-mrs_uav_system_full:
-    ubuntu: [ros-noetic-mrs-uav-system-full]
-  
 mrs_uav_system:
     ubuntu: [ros-noetic-mrs-uav-system]
+  
+mrs_uav_system_full:
+    ubuntu: [ros-noetic-mrs-uav-system-full]
   
 uvdar_gazebo_plugin:
     ubuntu: [ros-noetic-uvdar-gazebo-plugin]
