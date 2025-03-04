@@ -1,26 +1,26 @@
-xmlrpcpp:
-    ubuntu: [ros-noetic-xmlrpcpp]
-  
 rosgraph:
     ubuntu: [ros-noetic-rosgraph]
+  
+xmlrpcpp:
+    ubuntu: [ros-noetic-xmlrpcpp]
   
 roslz4:
     ubuntu: [ros-noetic-roslz4]
   
-roscpp:
-    ubuntu: [ros-noetic-roscpp]
+rosmaster:
+    ubuntu: [ros-noetic-rosmaster]
   
 rosparam:
     ubuntu: [ros-noetic-rosparam]
   
-rosmaster:
-    ubuntu: [ros-noetic-rosmaster]
-  
-rospy:
-    ubuntu: [ros-noetic-rospy]
+roscpp:
+    ubuntu: [ros-noetic-roscpp]
   
 rosout:
     ubuntu: [ros-noetic-rosout]
+  
+rospy:
+    ubuntu: [ros-noetic-rospy]
   
 roslaunch:
     ubuntu: [ros-noetic-roslaunch]
@@ -28,14 +28,14 @@ roslaunch:
 rostest:
     ubuntu: [ros-noetic-rostest]
   
+rosbag_storage:
+    ubuntu: [ros-noetic-rosbag-storage]
+  
 topic_tools:
     ubuntu: [ros-noetic-topic-tools]
   
 message_filters:
     ubuntu: [ros-noetic-message-filters]
-  
-rosbag_storage:
-    ubuntu: [ros-noetic-rosbag-storage]
   
 rosbag:
     ubuntu: [ros-noetic-rosbag]
@@ -79,11 +79,14 @@ nlopt:
 libcamera_ros_driver:
     ubuntu: [ros-noetic-libcamera-ros-driver]
   
-nimbro_cam_transport:
-    ubuntu: [ros-noetic-nimbro-cam-transport]
-  
 nimbro_log_transport:
     ubuntu: [ros-noetic-nimbro-log-transport]
+  
+nimbro_net_monitor:
+    ubuntu: [ros-noetic-nimbro-net-monitor]
+  
+nimbro_cam_transport:
+    ubuntu: [ros-noetic-nimbro-cam-transport]
   
 nimbro_service_transport:
     ubuntu: [ros-noetic-nimbro-service-transport]
@@ -94,9 +97,6 @@ nimbro_tf_throttle:
 nimbro_topic_transport:
     ubuntu: [ros-noetic-nimbro-topic-transport]
   
-nimbro_net_monitor:
-    ubuntu: [ros-noetic-nimbro-net-monitor]
-  
 nimbro_network:
     ubuntu: [ros-noetic-nimbro-network]
   
@@ -106,11 +106,11 @@ tf2_msgs:
 tf2:
     ubuntu: [ros-noetic-tf2]
   
-tf2_py:
-    ubuntu: [ros-noetic-tf2-py]
-  
 tf2_eigen:
     ubuntu: [ros-noetic-tf2-eigen]
+  
+tf2_py:
+    ubuntu: [ros-noetic-tf2-py]
   
 tf2_bullet:
     ubuntu: [ros-noetic-tf2-bullet]
@@ -118,17 +118,17 @@ tf2_bullet:
 tf2_ros:
     ubuntu: [ros-noetic-tf2-ros]
   
-tf2_kdl:
-    ubuntu: [ros-noetic-tf2-kdl]
-  
-tf2_geometry_msgs:
-    ubuntu: [ros-noetic-tf2-geometry-msgs]
-  
 tf2_tools:
     ubuntu: [ros-noetic-tf2-tools]
   
+tf2_kdl:
+    ubuntu: [ros-noetic-tf2-kdl]
+  
 tf2_sensor_msgs:
     ubuntu: [ros-noetic-tf2-sensor-msgs]
+  
+tf2_geometry_msgs:
+    ubuntu: [ros-noetic-tf2-geometry-msgs]
   
 test_tf2:
     ubuntu: [ros-noetic-test-tf2]
